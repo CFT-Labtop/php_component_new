@@ -1,0 +1,35 @@
+{
+    "name": "hinorpio/php_component",
+    "type": "library",
+    "authors": [{
+        "name": "Hinorpio",
+        "email": "hinscorpio@gmail.com"
+    }],
+    "require": {
+        "thingengineer/mysqli-database-class": "dev-master",
+        "phpoffice/phpspreadsheet": "1.11.0",
+        "koolreport/core": "^4.5",
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload": {
+        "files": [
+            "src/PHPComponent/phpqrcode/qrlib.php",
+            "src/PHPComponent/Util/Util.php",
+            "src/PHPComponent/DB/DB_mysql.php",
+            "src/PHPComponent/DB/DB_mssql.php",
+            "src/PHPComponent/DB/DB.php",
+            "src/PHPComponent/Util/Response.php",
+            "src/PHPComponent/Util/BaseEmail.php",
+            "src/PHPComponent/Util/Auth.php",
+            "src/PHPComponent/Util/BaseException.php",
+            "src/PHPComponent/Util/BaseSystem.php",
+            "src/PHPComponent/Util/BaseExcel.php",
+            "src/PHPComponent/Model/BaseModel.php",
+            "src/PHPComponent/Util/BaseLog.php",
+            "src/PHPComponent/Model/UserAuth.php",
+            "src/PHPComponent/Model/LoginUser.php",
+            "src/PHPComponent/Model/Token.php",
+            "src/PHPComponent/Model/Log.php"
+        ]
+    }
+}
